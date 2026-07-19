@@ -1,0 +1,1 @@
+var json_POI_LAVADERO_27 = {"type":"FeatureCollection","name":"POI_LAVADERO_27","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"fid":"1","Nombre":null,"Descripción":null},"geometry":{"type":"Point","coordinates":[-6.515190645803246,41.77206558990521]}}]}

@@ -1,0 +1,1 @@
+var json_POI_IGLESIA_25 = {"type":"FeatureCollection","name":"POI_IGLESIA_25","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"fid":"1","Nombre":null,"Descripción":null,"Web":null,"Teléfono":null},"geometry":{"type":"Point","coordinates":[-6.515236147039942,41.775149346383003]}}]}

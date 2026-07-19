@@ -1,0 +1,1 @@
+var json_POI_CEMENTERIO_19 = {"type":"FeatureCollection","name":"POI_CEMENTERIO_19","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"fid":"1","Nombre":null,"Descripción":null,"Web":null,"Teléfono":null},"geometry":{"type":"Point","coordinates":[-6.512781924084893,41.77840473309184]}}]}

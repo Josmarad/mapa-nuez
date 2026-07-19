@@ -1,0 +1,1 @@
+var json_POI_BAR_16 = {"type":"FeatureCollection","name":"POI_BAR_16","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"fid":"1","Nombre":null,"Descripción":null,"Web":null,"Teléfono":null},"geometry":{"type":"Point","coordinates":[-6.515503466805622,41.774918175831672]}}]}

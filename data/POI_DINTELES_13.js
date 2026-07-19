@@ -1,0 +1,1 @@
+var json_POI_DINTELES_13 = {"type":"FeatureCollection","name":"POI_DINTELES_13","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"fid":"1","Nombre":null,"Descripción":null,"Estado":null},"geometry":{"type":"Point","coordinates":[-6.515230240410632,41.774332871599398]}}]}

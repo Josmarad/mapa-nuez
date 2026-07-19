@@ -1,0 +1,1 @@
+var json_POI_COTO_22 = {"type":"FeatureCollection","name":"POI_COTO_22","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"fid":"1","Nombre":null,"Descripción":null,"Web":null,"Teléfono":null},"geometry":{"type":"Point","coordinates":[-6.515219084076175,41.775505644316624]}}]}

@@ -1,0 +1,1 @@
+var json_POI_FUENTE_GRANDE_30 = {"type":"FeatureCollection","name":"POI_FUENTE_GRANDE_30","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"fid":"1","Nombre":null,"Descripción":null},"geometry":{"type":"Point","coordinates":[-6.516797408224569,41.773380552338949]}}]}

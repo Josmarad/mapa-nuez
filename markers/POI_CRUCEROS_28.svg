@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 112">
+  <title>Crucero de piedra</title>
+
+  <!-- Base escalonada -->
+  <path d="M15 94H81L86 101H10Z"
+        fill="#B9AD98" stroke="#3F372E" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M22 86H74L79 94H17Z"
+        fill="#C6BAA5" stroke="#3F372E" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M30 79H66L71 86H25Z"
+        fill="#D1C5B0" stroke="#3F372E" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Pedestal -->
+  <rect x="39" y="64" width="18" height="15" rx="2"
+        fill="#C8B99E" stroke="#3F372E" stroke-width="3"/>
+
+  <!-- Fuste -->
+  <rect x="44" y="18" width="8" height="46"
+        fill="#C9BBA3" stroke="#3F372E" stroke-width="3"/>
+
+  <!-- Cruz latina -->
+  <rect x="44" y="4" width="8" height="28"
+        fill="#C9BBA3" stroke="#3F372E" stroke-width="3"/>
+  <rect x="34" y="14" width="28" height="8"
+        fill="#C9BBA3" stroke="#3F372E" stroke-width="3"/>
+</svg>
