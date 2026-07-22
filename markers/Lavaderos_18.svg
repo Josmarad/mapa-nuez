@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 80" role="img" aria-labelledby="title desc">
+  <title id="title">Lavandera tradicional junto al agua</title>
+  <desc id="desc">Icono vectorial de una mujer arrodillada y agachada lavando ropa junto al agua.</desc>
+
+  <!-- Fondo transparente -->
+
+  <!-- Orilla de piedra -->
+  <path d="M8 59
+           C18 52, 28 54, 39 57
+           C49 60, 58 58, 69 55
+           C78 53, 86 55, 91 59
+           L91 71
+           L8 71 Z"
+        fill="#A88D6A"
+        stroke="#3E3328"
+        stroke-width="2.8"
+        stroke-linejoin="round"/>
+
+  <!-- Agua -->
+  <path d="M7 64
+           C19 60, 30 66, 43 63
+           C55 60, 67 66, 90 62
+           L90 77
+           L7 77 Z"
+        fill="#73B7D2"
+        stroke="#3E3328"
+        stroke-width="2.5"
+        stroke-linejoin="round"/>
+
+  <!-- Ondas -->
+  <g fill="none" stroke="#E5F7FF" stroke-width="1.8" stroke-linecap="round">
+    <path d="M14 69 C20 66, 26 72, 32 69 S44 66, 50 69"/>
+    <path d="M49 73 C55 70, 61 76, 67 73 S79 70, 85 73"/>
+  </g>
+
+  <!-- Falda / cuerpo arrodillado -->
+  <path d="M34 35
+           C28 40, 25 48, 27 56
+           L47 58
+           C48 51, 47 43, 43 37
+           Z"
+        fill="#9B5D4A"
+        stroke="#3E3328"
+        stroke-width="2.8"
+        stroke-linejoin="round"/>
+
+  <!-- Torso inclinado -->
+  <path d="M38 26
+           C45 24, 52 27, 57 33
+           L50 45
+           C45 41, 39 38, 34 35
+           Z"
+        fill="#D3B27C"
+        stroke="#3E3328"
+        stroke-width="2.8"
+        stroke-linejoin="round"/>
+
+  <!-- Pañuelo / cabeza -->
+  <path d="M35 19
+           C39 14, 47 14, 51 20
+           L48 28
+           C43 29, 38 26, 35 23
+           Z"
+        fill="#6B4F3A"
+        stroke="#3E3328"
+        stroke-width="2.6"
+        stroke-linejoin="round"/>
+
+  <!-- Cara -->
+  <circle cx="44" cy="24" r="4.5"
+          fill="#E2B88D"
+          stroke="#3E3328"
+          stroke-width="2"/>
+
+  <!-- Brazo delantero -->
+  <path d="M52 34
+           C58 38, 61 43, 62 48"
+        fill="none"
+        stroke="#D9A77F"
+        stroke-width="5"
+        stroke-linecap="round"/>
+
+  <!-- Brazo trasero -->
+  <path d="M45 36
+           C50 41, 53 45, 54 50"
+        fill="none"
+        stroke="#D9A77F"
+        stroke-width="5"
+        stroke-linecap="round"/>
+
+  <!-- Manos -->
+  <circle cx="62" cy="50" r="2.8"
+          fill="#D9A77F"
+          stroke="#3E3328"
+          stroke-width="1.5"/>
+  <circle cx="54" cy="52" r="2.8"
+          fill="#D9A77F"
+          stroke="#3E3328"
+          stroke-width="1.5"/>
+
+  <!-- Ropa que se lava -->
+  <path d="M51 50
+           C57 47, 65 49, 70 54
+           C65 58, 58 59, 51 56
+           Z"
+        fill="#E8E2D3"
+        stroke="#3E3328"
+        stroke-width="2.2"
+        stroke-linejoin="round"/>
+
+  <!-- Pliegues -->
+  <path d="M55 53 C59 51, 63 55, 67 53"
+        fill="none"
+        stroke="#B8AFA0"
+        stroke-width="1.5"
+        stroke-linecap="round"/>
+
+  <!-- Rodilla apoyada -->
+  <ellipse cx="34" cy="58" rx="8" ry="4"
+           fill="#7D493A"
+           stroke="#3E3328"
+           stroke-width="2"/>
+
+  <!-- Línea de postura -->
+  <path d="M39 28 C44 31, 49 34, 53 39"
+        fill="none"
+        stroke="#8B6E4F"
+        stroke-width="1.4"
+        stroke-linecap="round"
+        opacity="0.8"/>
+</svg>

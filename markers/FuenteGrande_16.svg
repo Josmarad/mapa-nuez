@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 80" role="img" aria-labelledby="title desc">
+  <title id="title">Fuente tradicional de piedra</title>
+  <desc id="desc">Icono vectorial inspirado en una fuente rural de piedra con arco, caño y pilón rectangular.</desc>
+
+  <!-- Fondo transparente -->
+
+  <!-- Sombra -->
+  <ellipse cx="50" cy="73" rx="38" ry="4" fill="#000000" opacity="0.12"/>
+
+  <!-- Pilón frontal -->
+  <path d="M10 43
+           L78 43
+           L88 49
+           L84 68
+           L19 68
+           L8 61
+           Z"
+        fill="#B99A72"
+        stroke="#3E3328"
+        stroke-width="3"
+        stroke-linejoin="round"/>
+
+  <!-- Agua del pilón -->
+  <path d="M16 47
+           L76 47
+           L82 51
+           L79 59
+           L21 59
+           L13 55
+           Z"
+        fill="#75B8D4"
+        stroke="#3E3328"
+        stroke-width="2.2"
+        stroke-linejoin="round"/>
+
+  <!-- Ondas -->
+  <g fill="none" stroke="#DDF5FF" stroke-width="1.8" stroke-linecap="round">
+    <path d="M22 53 C28 50, 34 56, 40 53 S52 50, 58 53 S70 56, 76 53"/>
+    <path d="M28 57 C34 54, 40 60, 46 57 S58 54, 64 57"/>
+  </g>
+
+  <!-- Cuerpo de la fuente -->
+  <path d="M29 15
+           Q48 4 67 15
+           L70 43
+           L24 43
+           Z"
+        fill="#BFA27B"
+        stroke="#3E3328"
+        stroke-width="3"
+        stroke-linejoin="round"/>
+
+  <!-- Arco interior oscuro -->
+  <path d="M34 39
+           V25
+           Q48 11 62 25
+           V39
+           Z"
+        fill="#51483D"
+        stroke="#3E3328"
+        stroke-width="2.5"
+        stroke-linejoin="round"/>
+
+  <!-- Sillares del arco -->
+  <g fill="#D0B58D" stroke="#5A4938" stroke-width="1.5">
+    <path d="M30 19 L36 14 L41 18 L36 24 Z"/>
+    <path d="M37 13 L44 9 L47 15 L41 18 Z"/>
+    <path d="M45 9 L51 8 L52 15 L47 15 Z"/>
+    <path d="M53 9 L60 12 L56 18 L52 15 Z"/>
+    <path d="M61 13 L67 19 L61 24 L56 18 Z"/>
+    <path d="M26 25 L33 20 L36 27 L30 32 Z"/>
+    <path d="M67 20 L73 26 L66 32 L61 25 Z"/>
+  </g>
+
+  <!-- Frontal bajo del arco -->
+  <path d="M31 35 H65 V43 H31 Z"
+        fill="#C6A67D"
+        stroke="#3E3328"
+        stroke-width="2.3"/>
+
+  <!-- Caño -->
+  <path d="M48 32 V45"
+        stroke="#3E3328"
+        stroke-width="3"
+        stroke-linecap="round"/>
+
+  <circle cx="48" cy="31" r="2.2"
+          fill="#6A5A48"
+          stroke="#3E3328"
+          stroke-width="1.4"/>
+
+  <!-- Chorro -->
+  <path d="M48 45 V50"
+        stroke="#7BC5E4"
+        stroke-width="2.6"
+        stroke-linecap="round"/>
+
+  <!-- Textura de piedra simplificada -->
+  <g fill="none" stroke="#8B7458" stroke-width="1.2" opacity="0.8">
+    <path d="M15 54 L21 52"/>
+    <path d="M25 64 L31 62"/>
+    <path d="M39 47 L44 45"/>
+    <path d="M58 63 L64 61"/>
+    <path d="M72 48 L78 46"/>
+    <path d="M37 22 L40 20"/>
+    <path d="M57 23 L60 21"/>
+  </g>
+</svg>
