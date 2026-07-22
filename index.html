@@ -13,23 +13,12 @@
         <link rel="stylesheet" href="css/fontawesome-all.min.css">
         <link rel="stylesheet" href="css/leaflet.photon.css">
         <style>
-        html, body {
-            width: 100%;
-            height: 100%;
-            margin: 0;
-        }
         #map {
-            width: 100%;
-            height: 100%;
-        }
-        .leaflet-control-layers {
-            max-width: 270px;
-        }
-        .leaflet-control-layers-overlays label {
-            margin-bottom: 5px;
+            width: 1341px;
+            height: 627px;
         }
         </style>
-        <title>Mapa turístico de Nuez</title>
+        <title></title>
     </head>
     <body>
         <div id="map">
@@ -432,11 +421,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                </table>';
+            var popupContent = '<table>\                </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
 			layer.on('popupopen', function(e) {
 				addClassToPopupIfMedia(content, e.popup);
@@ -484,11 +469,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                </table>';
+            var popupContent = '<table>\                </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
 			layer.on('popupopen', function(e) {
 				addClassToPopupIfMedia(content, e.popup);
@@ -536,11 +517,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                </table>';
+            var popupContent = '<table>\                </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
 			layer.on('popupopen', function(e) {
 				addClassToPopupIfMedia(content, e.popup);
@@ -588,11 +565,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                </table>';
+            var popupContent = '<table>\                </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
 			layer.on('popupopen', function(e) {
 				addClassToPopupIfMedia(content, e.popup);
@@ -640,11 +613,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -701,11 +670,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                </table>';
+            var popupContent = '<table>\                </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
 			layer.on('popupopen', function(e) {
 				addClassToPopupIfMedia(content, e.popup);
@@ -753,11 +718,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                </table>';
+            var popupContent = '<table>\                </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
 			layer.on('popupopen', function(e) {
 				addClassToPopupIfMedia(content, e.popup);
@@ -805,11 +766,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -866,11 +823,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -927,11 +880,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -988,11 +937,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1049,11 +994,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1110,11 +1051,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1171,11 +1108,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1232,11 +1165,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1293,11 +1222,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1354,11 +1279,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1415,11 +1336,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1479,11 +1396,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1546,11 +1459,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1613,11 +1522,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1680,11 +1585,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1741,11 +1642,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1802,11 +1699,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1869,11 +1762,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1936,11 +1825,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -2003,11 +1888,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -2064,11 +1945,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -2131,11 +2008,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -2198,11 +2071,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -2265,11 +2134,7 @@
                 },
                 mouseover: highlightFeature,
             });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
+            var popupContent = '<table>\                    <tr>\
                         <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -2321,94 +2186,6 @@
         });
         bounds_group.addLayer(layer_Pabellndeportivo_33);
         map.addLayer(layer_Pabellndeportivo_33);
-
-        // --- Menú de capas agrupado por categorías ---
-        // Retiramos temporalmente las capas de interés para incorporarlas
-        // mediante grupos; las capas cartográficas permanecen intactas.
-        [
-            layer_ARQUITECTURA_TRADICIONAL_10,
-            layer_Almazara_11,
-            layer_Telar_12,
-            layer_ColeccinEtnogrfica_13,
-            layer_Hornotradicional_14,
-            layer_CasaMuseo_15,
-            layer_FuenteGrande_16,
-            layer_Iglesia_17,
-            layer_Lavaderos_18,
-            layer_Cruceros_19,
-            layer_Cantera_20,
-            layer_Cementerioshistricos_21,
-            layer_Bar_22,
-            layer_Panaderia_23,
-            layer_Horno_24,
-            layer_Fuentes_25,
-            layer_Localessociales_26,
-            layer_Velatorio_27,
-            layer_Cementerio_28,
-            layer_Parking_29,
-            layer_PistadePdel_30,
-            layer_Gimnasio_31,
-            layer_LocaldelCoto_32,
-            layer_Pabellndeportivo_33
-        ].forEach(function(layer) {
-            if (map.hasLayer(layer)) {
-                map.removeLayer(layer);
-            }
-        });
-
-        var grupoArquitecturaPopular = L.layerGroup([
-            layer_ARQUITECTURA_TRADICIONAL_10
-        ]).addTo(map);
-
-        var grupoPatrimonioEtnografico = L.layerGroup([
-            layer_Almazara_11,
-            layer_Telar_12,
-            layer_ColeccinEtnogrfica_13,
-            layer_Hornotradicional_14,
-            layer_CasaMuseo_15
-        ]).addTo(map);
-
-        var grupoPatrimonioHistorico = L.layerGroup([
-            layer_FuenteGrande_16,
-            layer_Iglesia_17,
-            layer_Lavaderos_18,
-            layer_Cruceros_19,
-            layer_Cantera_20,
-            layer_Cementerioshistricos_21
-        ]).addTo(map);
-
-        var grupoServicios = L.layerGroup([
-            layer_Bar_22,
-            layer_Panaderia_23,
-            layer_Horno_24,
-            layer_Fuentes_25,
-            layer_Localessociales_26,
-            layer_Velatorio_27,
-            layer_Cementerio_28,
-            layer_Parking_29
-        ]).addTo(map);
-
-        var grupoDeporteOcio = L.layerGroup([
-            layer_PistadePdel_30,
-            layer_Gimnasio_31,
-            layer_LocaldelCoto_32,
-            layer_Pabellndeportivo_33
-        ]).addTo(map);
-
-        var categoriasInteres = {
-            "Arquitectura popular": grupoArquitecturaPopular,
-            "Patrimonio etnográfico": grupoPatrimonioEtnografico,
-            "Patrimonio histórico": grupoPatrimonioHistorico,
-            "Servicios": grupoServicios,
-            "Deporte y ocio": grupoDeporteOcio
-        };
-
-        L.control.layers(null, categoriasInteres, {
-            collapsed: true,
-            position: "topright"
-        }).addTo(map);
-        // --- Fin del menú de capas ---
-
         setBounds();
         </script>
     </body>
