@@ -1,0 +1,1 @@
+var json_Parking_33 = {"type":"FeatureCollection","name":"Parking_33","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"fid":"1","Nombre":"APARCAMIENTO","Descripción":"Zona de estacionamiento recomendada."},"geometry":{"type":"Point","coordinates":[-6.514960295792388,41.77640698441872]}}]}

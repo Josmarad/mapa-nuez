@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Rueda de carro tradicional</title>
+
+  <!-- Llanta -->
+  <circle cx="256" cy="256" r="185"
+          fill="#8B5A2B"
+          stroke="#3E2A1F"
+          stroke-width="12"/>
+
+  <!-- Aro metálico -->
+  <circle cx="256" cy="256" r="195"
+          fill="none"
+          stroke="#6F6F6F"
+          stroke-width="12"/>
+
+  <!-- Hueco interior -->
+  <circle cx="256" cy="256" r="145"
+          fill="#F7E3B5"
+          stroke="#3E2A1F"
+          stroke-width="8"/>
+
+  <!-- Cubo -->
+  <circle cx="256" cy="256" r="34"
+          fill="#A66A3D"
+          stroke="#3E2A1F"
+          stroke-width="8"/>
+
+  <!-- Eje -->
+  <circle cx="256" cy="256" r="10"
+          fill="#555"/>
+
+  <!-- Radios -->
+  <g stroke="#7A4A24" stroke-width="10" stroke-linecap="round">
+    <line x1="256" y1="111" x2="256" y2="222"/>
+    <line x1="256" y1="290" x2="256" y2="401"/>
+
+    <line x1="111" y1="256" x2="222" y2="256"/>
+    <line x1="290" y1="256" x2="401" y2="256"/>
+
+    <line x1="154" y1="154" x2="230" y2="230"/>
+    <line x1="282" y1="282" x2="358" y2="358"/>
+
+    <line x1="358" y1="154" x2="282" y2="230"/>
+    <line x1="230" y1="282" x2="154" y2="358"/>
+  </g>
+
+  <!-- Remaches del aro -->
+  <g fill="#5A5A5A">
+    <circle cx="256" cy="61" r="5"/>
+    <circle cx="394" cy="118" r="5"/>
+    <circle cx="451" cy="256" r="5"/>
+    <circle cx="394" cy="394" r="5"/>
+    <circle cx="256" cy="451" r="5"/>
+    <circle cx="118" cy="394" r="5"/>
+    <circle cx="61" cy="256" r="5"/>
+    <circle cx="118" cy="118" r="5"/>
+  </g>
+</svg>

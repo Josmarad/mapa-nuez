@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="512" height="512" viewBox="0 0 512 512"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Telar tradicional</title>
+  <desc id="desc">Icono de un telar de madera con hilos verticales y una pieza de tejido de colores.</desc>
+
+  <!-- Fondo transparente -->
+
+  <!-- Estructura principal de madera -->
+  <rect x="78" y="72" width="34" height="354" rx="7"
+        fill="#8a6038" stroke="#4a321e" stroke-width="9"/>
+  <rect x="400" y="72" width="34" height="354" rx="7"
+        fill="#8a6038" stroke="#4a321e" stroke-width="9"/>
+
+  <rect x="63" y="76" width="386" height="34" rx="8"
+        fill="#a87742" stroke="#4a321e" stroke-width="9"/>
+  <rect x="69" y="151" width="374" height="27" rx="7"
+        fill="#9a6c3f" stroke="#4a321e" stroke-width="8"/>
+
+  <!-- Travesaños inferiores -->
+  <rect x="94" y="383" width="324" height="28" rx="7"
+        fill="#8b6038" stroke="#4a321e" stroke-width="8"/>
+  <rect x="120" y="421" width="272" height="22" rx="6"
+        fill="#7c5432" stroke="#4a321e" stroke-width="7"/>
+
+  <!-- Patas -->
+  <path d="M100 405 L78 474" fill="none"
+        stroke="#4a321e" stroke-width="18" stroke-linecap="round"/>
+  <path d="M412 405 L434 474" fill="none"
+        stroke="#4a321e" stroke-width="18" stroke-linecap="round"/>
+
+  <!-- Rodillos -->
+  <rect x="133" y="128" width="246" height="22" rx="11"
+        fill="#704926" stroke="#3f2918" stroke-width="7"/>
+  <rect x="132" y="360" width="248" height="22" rx="11"
+        fill="#704926" stroke="#3f2918" stroke-width="7"/>
+
+  <!-- Hilos de la urdimbre -->
+  <g stroke="#d9c7a5" stroke-width="3" opacity="0.95">
+    <line x1="151" y1="150" x2="151" y2="361"/>
+    <line x1="164" y1="150" x2="164" y2="361"/>
+    <line x1="177" y1="150" x2="177" y2="361"/>
+    <line x1="190" y1="150" x2="190" y2="361"/>
+    <line x1="203" y1="150" x2="203" y2="361"/>
+    <line x1="216" y1="150" x2="216" y2="361"/>
+    <line x1="229" y1="150" x2="229" y2="361"/>
+    <line x1="242" y1="150" x2="242" y2="361"/>
+    <line x1="255" y1="150" x2="255" y2="361"/>
+    <line x1="268" y1="150" x2="268" y2="361"/>
+    <line x1="281" y1="150" x2="281" y2="361"/>
+    <line x1="294" y1="150" x2="294" y2="361"/>
+    <line x1="307" y1="150" x2="307" y2="361"/>
+    <line x1="320" y1="150" x2="320" y2="361"/>
+    <line x1="333" y1="150" x2="333" y2="361"/>
+    <line x1="346" y1="150" x2="346" y2="361"/>
+    <line x1="359" y1="150" x2="359" y2="361"/>
+  </g>
+
+  <!-- Peine/batán -->
+  <rect x="142" y="220" width="228" height="24" rx="5"
+        fill="#6e4728" stroke="#3d2918" stroke-width="7"/>
+  <rect x="164" y="196" width="184" height="17" rx="4"
+        fill="#9a6b3d" stroke="#4a321e" stroke-width="6"/>
+
+  <!-- Tejido -->
+  <path d="M176 244 H336 V360 H176 Z"
+        fill="#d08a39" stroke="#5b3920" stroke-width="7"/>
+
+  <!-- Franjas del tejido -->
+  <rect x="176" y="258" width="160" height="17" fill="#dcb144"/>
+  <rect x="176" y="280" width="160" height="18" fill="#b45f32"/>
+  <rect x="176" y="303" width="160" height="17" fill="#e2b951"/>
+  <rect x="176" y="325" width="160" height="18" fill="#9a4b2f"/>
+  <rect x="176" y="348" width="160" height="12" fill="#d6a23c"/>
+
+  <!-- Hilos visibles sobre el tejido -->
+  <g stroke="#5e3723" stroke-width="3" opacity="0.75">
+    <line x1="194" y1="244" x2="194" y2="360"/>
+    <line x1="215" y1="244" x2="215" y2="360"/>
+    <line x1="236" y1="244" x2="236" y2="360"/>
+    <line x1="257" y1="244" x2="257" y2="360"/>
+    <line x1="278" y1="244" x2="278" y2="360"/>
+    <line x1="299" y1="244" x2="299" y2="360"/>
+    <line x1="320" y1="244" x2="320" y2="360"/>
+  </g>
+
+  <!-- Lanzadera -->
+  <path d="M119 307
+           C153 286 195 285 229 306
+           C196 326 153 328 119 307 Z"
+        fill="#6f4728" stroke="#3d2818" stroke-width="7"/>
+  <circle cx="174" cy="307" r="10" fill="#d0a250"/>
+
+  <!-- Detalles de veta -->
+  <g fill="none" stroke="#c0915f" stroke-width="4" opacity="0.65" stroke-linecap="round">
+    <path d="M88 98 V394"/>
+    <path d="M410 96 V396"/>
+    <path d="M96 88 H417"/>
+    <path d="M112 162 H400"/>
+  </g>
+</svg>

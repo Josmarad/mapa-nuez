@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 512 512"
+     role="img"
+     aria-labelledby="title desc">
+  <title id="title">Icono de fuente o surgencia</title>
+  <desc id="desc">Flecha azul ascendente entre dos bloques naranjas, sobre dos ondas azules.</desc>
+
+  <!-- Fondo transparente -->
+
+  <!-- Bloque naranja izquierdo, próximo al mástil -->
+  <path
+    d="M34 190
+       Q34 168 56 168
+       H220
+       V308
+       C194 297 174 297 150 310
+       C124 324 98 324 72 310
+       C57 302 45 301 34 305
+       Z"
+    fill="#F57C00"/>
+
+  <!-- Bloque naranja derecho, simétrico -->
+  <path
+    d="M478 190
+       Q478 168 456 168
+       H292
+       V308
+       C318 297 338 297 362 310
+       C388 324 414 324 440 310
+       C455 302 467 301 478 305
+       Z"
+    fill="#F57C00"/>
+
+  <!-- Flecha azul completamente rellena -->
+  <path
+    d="M235 322
+       V142
+       L197 180
+       C188 189 174 189 165 180
+       L151 166
+       C142 157 142 143 151 134
+       L237 48
+       C247 38 265 38 275 48
+       L361 134
+       C370 143 370 157 361 166
+       L347 180
+       C338 189 324 189 315 180
+       L277 142
+       V322
+       C277 337 268 346 256 346
+       C244 346 235 337 235 322
+       Z"
+    fill="#1976D2"/>
+
+  <!-- Onda superior -->
+  <path
+    d="M42 382
+       C70 364 98 364 126 382
+       C154 400 182 400 210 382
+       C238 364 266 364 294 382
+       C322 400 350 400 378 382
+       C406 364 434 364 470 382"
+    fill="none"
+    stroke="#1976D2"
+    stroke-width="24"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+
+  <!-- Onda inferior -->
+  <path
+    d="M42 448
+       C70 430 98 430 126 448
+       C154 466 182 466 210 448
+       C238 430 266 430 294 448
+       C322 466 350 466 378 448
+       C406 430 434 430 470 448"
+    fill="none"
+    stroke="#1976D2"
+    stroke-width="24"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+</svg>
