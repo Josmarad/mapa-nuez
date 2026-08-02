@@ -210,29 +210,7 @@
         layer_Fotografaarea_1;
         map.addLayer(layer_Fotografaarea_1);
         function pop_Limite_termino_Nuez_poligonoLimite_termino_Nuez_2(feature, layer) {
-            layer.on({
-                mouseout: function(e) {
-                    for (var i in e.target._eventParents) {
-                        if (typeof e.target._eventParents[i].resetStyle === 'function') {
-                            e.target._eventParents[i].resetStyle(e.target);
-                        }
-                    }
-                },
-                mouseover: highlightFeature,
-            });
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['Nombre'] !== null ? autolinker.link(String(feature.properties['Nombre']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['Descripcion'] !== null ? autolinker.link(String(feature.properties['Descripcion']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                </table>';
-            var content = removeEmptyRowsFromPopupContent(popupContent, feature);
-			layer.on('popupopen', function(e) {
-				addClassToPopupIfMedia(content, e.popup);
-			});
-			layer.bindPopup(content, { maxHeight: 400 });
+            // Capa cartográfica no interactiva: sin resaltado ni popup.
         }
 
         function style_Limite_termino_Nuez_poligonoLimite_termino_Nuez_2_0() {
@@ -247,7 +225,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(255,255,255,0.35294117647058826)',
-                interactive: true,
+                interactive: false,
             }
         }
         map.createPane('pane_Limite_termino_Nuez_poligonoLimite_termino_Nuez_2');
@@ -255,7 +233,7 @@
         map.getPane('pane_Limite_termino_Nuez_poligonoLimite_termino_Nuez_2').style['mix-blend-mode'] = 'normal';
         var layer_Limite_termino_Nuez_poligonoLimite_termino_Nuez_2 = new L.geoJson(json_Limite_termino_Nuez_poligonoLimite_termino_Nuez_2, {
             attribution: '',
-            interactive: true,
+            interactive: false,
             dataVar: 'json_Limite_termino_Nuez_poligonoLimite_termino_Nuez_2',
             layerName: 'layer_Limite_termino_Nuez_poligonoLimite_termino_Nuez_2',
             pane: 'pane_Limite_termino_Nuez_poligonoLimite_termino_Nuez_2',
